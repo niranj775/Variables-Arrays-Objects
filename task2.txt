@@ -1,0 +1,28 @@
+1. Square of a number
+2. Swapping 2 numbers
+3. Addition of 3 numbers
+4. Celsius to Fahrenheit conversion
+5. Meter to miles
+6. Pounds to kg
+7. Calculate Batting Average
+8. Calculate five test scores and print their average
+9. Power of any number x ^ y.
+10. Calculate Simple Interest
+11. Calculate area of an equilateral triangle
+12. Area Of Isosceles Triangle
+13. Volume Of Sphere
+14. Volume Of Prism
+15. Find area of a triangle.
+16. Give the Actual cost and Sold cost, Calculate Discount Of Product
+17. Given their radius of a circle and find its diameter, circumference and area.
+18. Given two numbers and perform all arithmetic operations.
+19. Program To Calculate CGPA
+20. Calculate electricity bill?
+    For example, a consumer consumes 100 watts per hour daily for one month. 
+    Calculate the total energy bill of that consumer if per unit rate is 10?
+21. Display the asterisk pattern as shown below(No loop needed):
+    *****
+    *****
+    *****
+    *****
+    *****
