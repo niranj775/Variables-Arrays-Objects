@@ -69,7 +69,7 @@ function dataHandling2(input, name) {
 let found = dataHandling2(friends, "Jeff");
 console.log(found);
 
-//!
+//! We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
 
 var friends1 = [
   "Mari",
@@ -86,3 +86,21 @@ var friends3 = friends1.concat(friends2);
 console.log(friends3);
 console.log(friends2);
 console.log(friends1);
+
+//! 1. Get the first item, the middle item and the last item of the array
+console.log(foods[0], foods[foods.length / 2 - 1], foods[foods.length - 1]);
+// 2. Add your name to the end of the friends array, and add another name to beginning.
+
+// 3. Add Mr or Ms to the names in the friends array.
+
+// 4. Concat all the names the friends array and return as comma “,” seperated string.
+
+// 5. Find the friends names who has letter ‘a’ and return the list.
+
+// 6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
+
+// 7. Find the names and return the list starting with letter M.
+
+// 8. Find the name with max characters and return the name.
+
+// 9. Find the name with min characters and return the name.
