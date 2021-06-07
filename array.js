@@ -101,7 +101,7 @@ friends.forEach((e) => {
 });
 console.log(updatedFri);
 // 4. Concat all the names the friends array and return as comma “,” seperated string.
-
+console.log(friends.join(","));
 // 5. Find the friends names who has letter ‘a’ and return the list.
 let resA = [];
 for (let e of friends) {
