@@ -90,17 +90,53 @@ console.log(friends1);
 //! 1. Get the first item, the middle item and the last item of the array
 console.log(foods[0], foods[foods.length / 2 - 1], foods[foods.length - 1]);
 // 2. Add your name to the end of the friends array, and add another name to beginning.
-
+friends.push("Niranjan");
+console.log(friends);
+friends.unshift("kumar");
+console.log(friends);
 // 3. Add Mr or Ms to the names in the friends array.
-
+updatedFri = [];
+friends.forEach((e) => {
+  updatedFri.push(`Mr.${e}`);
+});
+console.log(updatedFri);
 // 4. Concat all the names the friends array and return as comma “,” seperated string.
 
 // 5. Find the friends names who has letter ‘a’ and return the list.
-
+let resA = [];
+for (let e of friends) {
+  let name = e.split("");
+  if (name.includes("a")) resA.push(e);
+}
+console.log(resA);
 // 6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
+let sum = 0;
+for (e of friends) {
+  sum = sum + e.length;
+}
+console.log(sum);
+console.log(friends);
+console.log(friends.length);
+console.log(`Avg Length is ${sum / friends.length}`);
 
 // 7. Find the names and return the list starting with letter M.
+let resM = [];
+for (let e of friends) {
+  let lowerName = e.toLowerCase();
+  let name = lowerName.split("");
+  if (name[0] == "m") resM.push(lowerName);
+}
+console.log(resM);
 
 // 8. Find the name with max characters and return the name.
-
+let maxChar = friends[0];
+for (e of friends) {
+  if (e.length > maxChar.length) maxChar = e;
+}
+console.log(maxChar);
 // 9. Find the name with min characters and return the name.
+let minChar = friends[0];
+for (e of friends) {
+  if (e.length < minChar.length) minChar = e;
+}
+console.log(minChar);
